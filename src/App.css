@@ -1,11 +1,43 @@
 body {
+  overflow-x: hidden;
+}
+.inWrapper {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.wrapper {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 5%;
+.inWrapper1 {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.inWrapper2 {
+  background-color: rgba(0, 255, 0, 0.3);
+}
+
+.inWrapper3 {
+  background-color: rgba(0, 0, 255, 0.3);
+}
+
+.inWrapper4 {
+  background-color: rgba(255, 0, 255, 0.3);
+}
+
+.inWrapper5 {
+  background-color: rgba(255, 255, 0, 0.3);
+}
+
+.inWrapper6 {
+  background-color: rgba(0, 255, 255, 0.3);
+}
+
+.inWrapper7 {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.inWrapper8 {
+  background-color: rgba(0, 0, 0, 0.3);
 }

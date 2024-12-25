@@ -1,20 +1,20 @@
-import React from "react";
+import "./index.css";
 
 function ColorList(props) {
   const { red, green, blue, yellow, maroon } = props;
   return (
-    <div>
+    <>
       <p>{red}</p>
-      <div></div>
+      <div className="red"></div>
       <p>{green}</p>
-      <div></div>
+      <div className="green"></div>
       <p>{blue}</p>
-      <div></div>
+      <div className="blue"></div>
       <p>{yellow}</p>
-      <div></div>
+      <div className="yellow"></div>
       <p>{maroon}</p>
-      <div></div>
-    </div>
+      <div className="maroon"></div>
+    </>
   );
 }
 

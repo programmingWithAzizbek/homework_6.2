@@ -1,0 +1,22 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  font-size: 24px;
+  font-weight: 700;
+  color: green;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+  transition: all 0.3s ease;
+}
